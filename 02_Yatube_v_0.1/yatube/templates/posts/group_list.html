@@ -7,7 +7,7 @@
 {% block content %}
   <h1>{{ group.title }}</h1>
   <p>{{ group.description }}</p>
-  {% for post in page_obj %}
+  {% for post in posts %}
     <article>
       {% include "includes/single_post.html" %}       
     </article>
@@ -15,5 +15,4 @@
       <hr>
     {% endif %}
   {% endfor %}
-{% include 'includes/paginator.html' %}   
 {%endblock%}

@@ -14,7 +14,7 @@ class Group(models.Model):
 
 
 class Post(models.Model):
-    text = models.TextField('тест поста')
+    text = models.TextField('текст')
     pub_date = models.DateTimeField('дата публикации', auto_now_add=True)
     author = models.ForeignKey(User, verbose_name='автор',
                                on_delete=models.CASCADE,
@@ -30,4 +30,4 @@ class Post(models.Model):
         ordering = ['-pub_date']
 
     def __str__(self) -> str:
-        return self.text[:15]
+        return self.text
