@@ -1,22 +1,24 @@
-# Социальная сеть Yatube для публикации личных дневников (v 0.4)
+# Социальная сеть Yatube для публикации личных дневников (v 0.2)
 ![Python](https://img.shields.io/badge/Python-3.9.10-blue) ![!Django](https://img.shields.io/badge/Django-2.2.9-blue)
 
 ## Описание проекта
 Социальная сеть для авторов и подписчиков. Пользователи могут подписываться на избранных авторов, оставлять и удалять комментари к постам, оставлять новые посты на главной странице и в тематических группах, прикреплять изображения к публикуемым постам.
 
 ## Предыдущие версии
+
 [![V1](https://img.shields.io/badge/Version-0.1-blue?style=flat&link=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.1)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.1)
 
-[![V2](https://img.shields.io/badge/Version-0.2-blue?style=flat&link=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.2)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.2)
-
-[![V3](https://img.shields.io/badge/Version-0.3-blue?style=flat&link=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.3)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.3)
-
 ## Нововведения текущей версии
-- Добавлена возможность публикации постов с изображениями;
-- Создана система комментариев;
-- Добавлена система подписок;
-- Добавлено кешировние;
-- Все вышеперечисленное покрыто тестами.
+- Добавлено приложение **Users** со следующим функционалом:
+    - Регистрации пользователей;
+    - Восстановления пароля по email;
+    - Изменения пароля;
+    - Входа/выхода пользователя.
+- Добавлена возможность создавать и редактировать посты;
+- Обновлена пагинация;
+- Добавлены разделы **"Об авторе"** и **"Технологии".**
+
+
 
 ## Запуск сервера
 
@@ -57,7 +59,7 @@
 > После выполнения вышеперечисленных инструкций проект доступен по адресу http://127.0.0.1:8000/
 
 ## Контакты
+
 **Данила Кушлевич** 
 
 [![Telegram Badge](https://img.shields.io/badge/-dkushlevich-blue?style=social&logo=telegram&link=https://t.me/dkushlevich)](https://t.me/dkushlevich) [![Gmail Badge](https://img.shields.io/badge/-dkushlevich@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:dkushlevich@gmail.com)](mailto:dkushlevich@gmail.com)
-
