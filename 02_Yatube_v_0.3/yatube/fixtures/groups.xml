@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="posts.group" pk="1">
+        <field name="title" type="CharField">Лев Толстой – зеркало русской революции.</field>
+        <field name="slug" type="SlugField">leva</field>
+        <field name="description" type="TextField">Группа тайных поклонников графа.</field>
+    </object>
+    <object model="posts.group" pk="5">
+        <field name="title" type="CharField">Группа-тест</field>
+        <field name="slug" type="SlugField">test</field>
+        <field name="description" type="TextField">Описание группы-теста</field>
+    </object>
+</django-objects>

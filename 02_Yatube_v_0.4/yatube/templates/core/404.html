@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}404{% endblock %}
+{% block content %} 
+  {% with card_error='404' card_body='Ой! Похоже, шаловливые бесы мешают вашему клиенту подключиться к нашему замечательному сайту' %}
+    {% include 'core/includes/card.html' %} 
+  {% endwith %}
+{% endblock %} 

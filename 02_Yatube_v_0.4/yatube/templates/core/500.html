@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}500{% endblock %}
+{% block content %} 
+  {% with card_error='500' card_body='Гном-стажёр уже чинит сервер, подождите пару дней' %}
+    {% include 'core/includes/card.html' %} 
+  {% endwith %}
+{% endblock %} 
