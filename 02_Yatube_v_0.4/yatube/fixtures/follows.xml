@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="posts.follow" pk="1">
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">1</field>
+  </object>
+  <object model="posts.follow" pk="2">
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">2</field>
+  </object>
+  <object model="posts.follow" pk="3">
+    <field name="user" rel="ManyToOneRel" to="auth.user">2</field>
+    <field name="author" rel="ManyToOneRel" to="auth.user">5</field>
+  </object>
+</django-objects>

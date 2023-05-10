@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}403{% endblock %}
+{% block content %} 
+  {% with card_error='403' card_body='Здоровенная дубина орка, преграждающего вам путь, слегка намекает на то, что вам сюда нельзя' %}
+    {% include 'core/includes/card.html' %} 
+  {% endwith %}
+{% endblock %}

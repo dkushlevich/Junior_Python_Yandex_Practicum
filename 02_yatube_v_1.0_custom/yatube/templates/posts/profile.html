@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Профайл пользователя {%if author.get_full_name%}{{author.get_full_name}}{%else%}{{author.username}}{% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-success" role="alert">
+        {{message}} <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="link-secondary">ВОТ ЖЕ ОНА<a/>
+      </div>
+    {% endfor %}
+  {% endif %}
+    {% if page_obj%}
+    <h1>Все посты пользователя {%if author.get_full_name%}{{author.get_full_name}}{%else%}{{author.username}}
+    {% endif %}</h1>
+    <h3>Всего постов: {{count_posts}} </h3>
+    
+    {% if user.is_authenticated %}
+      {% if user != author%}
+        {% if following %}
+          <a
+            class="btn btn-lg btn-light"
+            href="{% url 'posts:profile_unfollow' author.username %}" role="button"
+          >
+            Отписаться
+          </a>
+        {% else %}
+          <a
+            class="btn btn-lg btn-dark"
+            href="{% url 'posts:profile_follow' author.username %}" role="button"
+          >
+            Подписаться
+          </a>
+        {% endif %}
+      {%endif%}
+    {%endif%}
+    <br>
+    {%else %}
+    <h1>У пользователя {%if post.author.first_name%}{{post.author.get_full_name}}{%else%}{{post.author.username}}{%endif%} нет постов</h1>
+    {%endif%}
+    {% for post in page_obj %}
+      <article>
+        {% include "posts/includes/single_post.html" %}
+      </article>
+    {% endfor %}
+    {% include 'posts/includes/paginator.html' %}
+{%endblock%}

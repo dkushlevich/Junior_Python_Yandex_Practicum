@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="auth.user" pk="1">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$Zmogy9nRoGLg$r8ZunNrLUsIZGTLUJ+7HHhuubg8eQ4PPmrTvLzQ1Tfs=</field>
+        <field name="last_login" type="DateTimeField">2019-10-01T14:42:37.186024+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="username" type="CharField">admin</field>
+        <field name="first_name" type="CharField"></field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2019-10-01T14:34:56.579627+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="2">
+        <field name="password" type="CharField">august</field>
+        <field name="last_login" type="DateTimeField"><None></None></field>
+        <field name="is_superuser" type="BooleanField">False</field>
+        <field name="username" type="CharField">leo</field>
+        <field name="first_name" type="CharField">Лев</field>
+        <field name="last_name" type="CharField">Толстой</field>
+        <field name="email" type="CharField">ln@yasnaya.polyana</field>
+        <field name="is_staff" type="BooleanField">False</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2019-10-05T21:37:36.487416+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="3">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$PAGsCKYrkJMB$XwQbOfsoJEssDO7y7RHFYKRxtzo8KMQkalUR4S23wHY=</field>
+        <field name="last_login" type="DateTimeField">2022-12-12T23:27:44.063937+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="username" type="CharField">Admin</field>
+        <field name="first_name" type="CharField"></field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-12T23:27:30.948737+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="4">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$98QJGh3ZJHH4$WS2jZzTMJJkz4wO4ZuVrbOg1+4DB0liR3UqT7d7DfBQ=</field>
+        <field name="last_login" type="DateTimeField">2022-12-15T17:48:57.403649+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="username" type="CharField">ADMIN</field>
+        <field name="first_name" type="CharField"></field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-15T17:48:02.746772+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="5">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$GnlYp5zioTlG$ZcrTghWE4fgEiP1Omk+qh4bENBGUX6fOdGPehXtc9YA=</field>
+        <field name="last_login" type="DateTimeField">2023-01-14T07:52:48.559428+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="username" type="CharField">dkushlevich</field>
+        <field name="first_name" type="CharField">Данила</field>
+        <field name="last_name" type="CharField">Кушлевич</field>
+        <field name="email" type="CharField">dkushlevich@yandex.ru</field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-16T07:43:58+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="6">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$8pXaXOSFUJyZ$5xrXWG1+8VTB0IE/bU1pznJR0oDenJsYMP/Fd/PZ2CU=</field>
+        <field name="last_login" type="DateTimeField">2022-12-25T04:59:15.972995+00:00</field>
+        <field name="is_superuser" type="BooleanField">False</field>
+        <field name="username" type="CharField">dkushlevich1</field>
+        <field name="first_name" type="CharField">Данила</field>
+        <field name="last_name" type="CharField">Кушлевич</field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">False</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-25T01:59:17.278403+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="8">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$ZmRsreNmy02m$CnLCBe9EBthOEl5chn6K0vvCq84HZmRMvTJVMR7RwHE=</field>
+        <field name="last_login" type="DateTimeField">2022-12-31T05:52:19+00:00</field>
+        <field name="is_superuser" type="BooleanField">False</field>
+        <field name="username" type="CharField">tatiana</field>
+        <field name="first_name" type="CharField">Татьяна</field>
+        <field name="last_name" type="CharField">Тест</field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">False</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-28T02:07:01+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="9">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$bxhdsKw4x2VZ$yj2Wl0yHGA3aBIpy7X418TBJaOGB9+Wsl12HO3LdpFU=</field>
+        <field name="last_login" type="DateTimeField">2022-12-28T07:29:37.628470+00:00</field>
+        <field name="is_superuser" type="BooleanField">False</field>
+        <field name="username" type="CharField">taty</field>
+        <field name="first_name" type="CharField"></field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">False</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2022-12-28T06:58:37.813148+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="auth.user" pk="11">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$RwOJmzXq5HMn$+1geACHTHBh9nW+Vf8oZdz11lD6mLyUWA89614bQMew=</field>
+        <field name="last_login" type="DateTimeField">2023-01-14T01:16:36.990453+00:00</field>
+        <field name="is_superuser" type="BooleanField">False</field>
+        <field name="username" type="CharField">test</field>
+        <field name="first_name" type="CharField">Данила</field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField">dkushlevich@gmail.com</field>
+        <field name="is_staff" type="BooleanField">False</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2023-01-14T01:16:30.255134+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+</django-objects>
