@@ -4,8 +4,10 @@
 ## Описание проекта
 Социальная сеть для авторов и подписчиков. Пользователи могут подписываться на избранных авторов, оставлять и удалять комментари к постам, оставлять новые посты на главной странице и в тематических группах, прикреплять изображения к публикуемым постам.
 ## Предыдущие версии
-![V1](https://img.shields.io/badge/Version-0.1-blue?url=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.1)
-![V2](https://img.shields.io/badge/Version-0.2-blue?url=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.2)
+[![V1](https://img.shields.io/badge/Version-0.1-blue?style=flat&link=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.1)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.1)
+
+[![V2](https://img.shields.io/badge/Version-0.2-blue?style=flat&link=https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.2)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube_v_0.2)
+
 ## Нововведения текущей версии
 - Покрытие проекта тестами
 
