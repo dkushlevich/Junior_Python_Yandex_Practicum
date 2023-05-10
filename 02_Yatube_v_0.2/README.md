@@ -1,5 +1,4 @@
-# Социальная сеть Yatube для публикации личных дневников
-# (v 0.2)
+# Социальная сеть Yatube для публикации личных дневников (v 0.2)
 ![Python](https://img.shields.io/badge/Python-3.9.10-blue) ![!Django](https://img.shields.io/badge/Django-2.2.9-blue)
 
 ## Описание проекта
