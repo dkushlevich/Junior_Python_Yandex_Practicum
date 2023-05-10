@@ -1,5 +1,6 @@
 # Homework Bot
-![PTB](https://img.shields.io/badge/python_telegram_bot-13.9.10-blue) ![!Requests](https://img.shields.io/badge/requests-2.26.0-blue)
+![!PTB](https://img.shields.io/badge/python_telegram_bot-13.9.10-blue) 
+![!Requests](https://img.shields.io/badge/requests-2.26.0-blue)
 
 ## Описание проекта
 Homework Bot - телеграм-бот для проверки статуса домашней работы через API-сервис Практикум.Домашка. 
