@@ -14,7 +14,7 @@
 |  [Yatube v 0.3 (покрытие тестами)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.3)        |               |                |
 |  [Yatube v 0.4 (подписки на авторов)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.4)        |               |                |
 |  [Yatube v 1.0 (финальная версия)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_1.0_custom)        |               |                |
-|  [Бот ассистент](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/04_API_Yatube_v_0.1)        |               |                |
+|  [Бот ассистент](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/03_bot_assistant)        |               |                |
 |  [API Yatube 0.1 (CRUD)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/04_API_Yatube_v_0.1)        |               |                |
 |  [API Yatube 0.2 (финальная версия)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/04_API_Yatube_v_0.2)        |               |                |
 |  [API Yamdb (групповой проект)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/05_API_YamDB)        |               |                |
