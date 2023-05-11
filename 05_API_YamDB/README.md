@@ -1,4 +1,5 @@
-# Групповой проект по курсу 'API: интерфейс взаимодействия программ'
+# REST API Yamdb
+## Групповой проект по курсу 'API: интерфейс взаимодействия программ'
 ![Python](https://img.shields.io/badge/Python-3.9.10-blue)
 ![Django](https://img.shields.io/badge/Django-3.2.16-blue)
 ![Django_REST_framework](https://img.shields.io/badge/Django_REST_framework-3.12.4-blue)
