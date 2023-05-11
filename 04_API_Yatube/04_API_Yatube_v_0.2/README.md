@@ -32,11 +32,11 @@
 
 1. Клонировать репозиторий.
    ```
-   $ git clone git@github.com:dkushlevich/api_final_yatube.git
+   $ git clone git@github.com:dkushlevich/Practicum-by-Yandex-Python.git
    ```
 2. Cоздать и активировать виртуальное окружение:
     ```
-      $ cd api_final_yatube
+      $ cd 04_API_Yatube/04_API_Yatube_v_0.2
       $ python3 -m venv venv
       $ source venv/bin/activate
     ```
