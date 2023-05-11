@@ -47,11 +47,11 @@
 
 1. Клонировать репозиторий.
    ```
-   $ git clone git@github.com:dkushlevich/api_yamdb.git
+   $ git clone git@github.com:dkushlevich/Practicum-by-Yandex-Python.git
    ```
 2. Cоздать и активировать виртуальное окружение:
     ```
-      $ cd api_yamdb
+      $ cd 05_API_YamDB/
       $ python -m venv venv
     ```
     Для Windows:
