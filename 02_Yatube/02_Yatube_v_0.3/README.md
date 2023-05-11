@@ -21,7 +21,7 @@
    ```
 2. Cоздать и активировать виртуальное окружение:
     ```
-      $ cd Practicum-by-Yandex-Python/02_Yatube_v_0.1
+      $ cd Practicum-by-Yandex-Python/02_Yatube_v_0.3
       $ python -m venv venv
     ```
     Для Windows:
