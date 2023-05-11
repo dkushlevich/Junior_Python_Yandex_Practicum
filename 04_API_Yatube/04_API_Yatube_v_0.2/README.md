@@ -16,7 +16,6 @@
 ![](https://img.shields.io/badge/Django_REST_framework-3.12.4-blue)
 ![](https://img.shields.io/badge/Djoser-2.1.0-blue)
 ![](https://img.shields.io/badge/Djangorestframework_simplejwt-4.7.2-blue)
-![](https://img.shields.io/badge/Pillow-9.3.0-blue)
 
 
 
