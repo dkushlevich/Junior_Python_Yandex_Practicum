@@ -1,26 +1,92 @@
-# Сборник учебных проектов по курсу [Python-разработчик](https://practicum.yandex.ru/backend-developer/) Яндекс Практикум (ноябрь 2022 — настоящее время):
+<div align = center>
+  
+  # Сборник учебных проектов по курсу <br> [Python-разработчик](https://practicum.yandex.ru/backend-developer/) <br> (ноябрь 2022 — настоящее время):
+  
+  Яндекс.Практикум
+  
 
+</div>
 
+---
+<details>
+  <summary>
+    Модуль фитнес-трекера
+  </summary>
 
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |  [  Модуль фитнес-трекера](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/01_fitness_tracker)        |Разработать модуль для фитнес трекера, рассчитывающий и отображающий полную информацию о тренировках по данным от блока датчиков| Разобраться с основными концепциями и принципами ООП; научиться писать код в соответствии с PEP8; разобраться в общих принципах работы с GIT.| - |
 
+</details>
 
-| Проект | Задача проекта | Цель проекта | Библиотеки|
-| :-----: | :-------------- | :---------- | :-------:|
-|  [  Модуль фитнес-трекера](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/01_fitness_tracker)        |Разработать модуль для фитнес трекера, рассчитывающий и отображающий полную информацию о тренировках по данным от блока датчиков| Разобраться с основными концепциями и принципами ООП; научиться писать код в соответствии с PEP8; разобраться в общих принципах работы с GIT.|-|
-|  [Yatube v 0.1 (сообщества)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.1)|Создать общую архитектуру социальной сети Yatube для ведения личных дневников.| Сделать первые шаги в Django; разобраться с моделью MTV; научиться работать с миграциями; прикоснуться к Django ORM; посмотреть на принципы верстки для бэкенда (HTML, CSS, Bootstrap).| ![!Django](https://img.shields.io/badge/Django-2.2.9-blue)  |
-|  [Yatube v 0.2 (новые записи)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.2)|Разработать дополнительный функционал для Yatube: создать ресурс для работы с пользователями, настроить пагинацию, добавить возможность пользователям создавать и редактировать собственные посты.|Подробнее разобраться в Django ORM (CRUD, фильтрация, агрегирующие функции, оптимизация запросов); научиться работать с Shell в рамках Django; научиться использовать Generic Views; разобраться с встроенным паджинатором; научиться создавать контекст-процессоры; подробно разобраться с возможностями приложения django.contrib.auth, научиться работать с формами | ![!Django](https://img.shields.io/badge/Django-2.2.9-blue) |
-|  [Yatube v 0.3 (покрытие тестами)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.3)        |Протестировать созданный ранее функционал Yatubе|Познакомиться с принципом TDD и библиотекой Unittest; научиться писать атомарные, независимые, вариатиивные и неизбыточные тесты. |![!Django](https://img.shields.io/badge/Django-2.2.9-blue) |
-|  [Yatube v 0.4 (подписки на авторов)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_0.4)|Расширить возможности Yatube: разработать функционал, позволяющий пользователям добавлять каритнки к постам, комментировать посты и подписываться друг на друга; добавить кеширование; написать тесты к нововведениям. Провести рефакторинг проекта. | Познакомиться с библиотекой для работы с графикойsorl-thumbnail. Научиться проводить рефакторинг собственного кода: разобраться с принципами DRY, KISS, YAGNI; Научиться кешировать данные; Научиться пользоваться django-debug-toolbar|![!Django](https://img.shields.io/badge/Django-2.2.9-blue) |
-|  [Yatube v 1.0 (финальная версия)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube/02_Yatube_v_1.0_custom)|Доработать проект Yatube с учётом личных пожеланий, значительно расширить возможности проекта. Переписать все view-функции на CBV, полностью изменить оформление сайта, добавить личный кабинет пользователя с возможностью установки аватара, добавить лайки к комментариям и постам.|Разработать и выполнить собственное ТЗ. Реализовать идеи, которые хотелось попробовать в ходе основного проекта.|![!Django](https://img.shields.io/badge/Django-2.2.9-blue) |
-|  [Бот ассистент](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/03_bot_assistant)|Разработать телеграм-бота Homework Bot для проверки статуса домашней работы через API-сервис Практикум.Домашка.|Познакомиться с REST API, механизмами авторизации, протоколом OAuth 2.0; Разобраться в основах API Telegram; Научиться работать с библиотекой python-telegram-bot.|![!PTB](https://img.shields.io/badge/python_telegram_bot-13.9.10-blue) ![!Requests](https://img.shields.io/badge/requests-2.26.0-blue) |
-|  [API Yatube 0.1 (CRUD)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/04_API_Yatube_v_0.1)|Написать API-сервис для проекта Yatube, поддерживающий CRUD для основных моделей проекта|Познакомиться с DRF: разобраться с основами сериализации данных; разобраться в работе view-функций/классов/сетов; научиться работать с SimpleRouter и DefaultRouter; познакомиться с токенами (Authtoken, JWT-токен), библиотекой Djoiser.|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)![Djoiser](https://img.shields.io/badge/Djoiser-2.1.0-blue)|
-|  [API Yatube 0.2 (финальная версия)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube/04_API_Yatube_v_0.2)|Доработать API-сервис для проекта Yatube: реализовать пермишены, фильтрацию, сортировку и поиск по запросам клиентов, добавить пагинацию ответов от API, установить ограничение количества запросов к API.|Разобраться с Permissions, Throttling, пагинацией и фильтрацией в DRF; научиться генерировать документацию к API-сервисам.|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)![Djoiser](https://img.shields.io/badge/Djoiser-2.1.0-blue)
-|[API Yamdb (групповой проект)](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/05_API_YamDB)| Написать бэкенд и API для сервиса Yamdb, позволяющем собирать отзывы пользователей на произведения. |Научиться программировать в команде; разобраться с коллаборацией на GitHub; разобраться с PR, мёржем, cherry-pick, FF; научиться проводить кросс-ревью на GitHub|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)|
+---
 
+<details>
+  <summary>
+    Социальная сеть для публикации личных дневников Yatube 
+  </summary>
+  
+  <br>
+  
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |  [Yatube](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/02_Yatube)|Создать ресурс, позволяющий пользователю регистрироваться, публиковать посты, добавлять к ним картинки, оценивать и комментировать чужие записи, подписываться на других авторов.|Научиться работать с Django от создания пустого проекта до [деплоя](http://dkushlevich.pythonanywhere.com) -  разобраться с Django ORM, моделью MVT, маршрутизацией, формами, CBV, Django Auth, основами HTML и CSS.| ![!Django](https://img.shields.io/badge/Django-2.2.9-blue)|
 
+</details>
 
-## Контакты
-**Данила Кушлевич** 
+---
+
+<details>
+  <summary>
+    Telegram-бот ассистент Homework Bot 
+  </summary>
+  
+  <br>
+  
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |  [Homework Bot](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/03_bot_assistant)|Разработать телеграм-бота для проверки статуса домашней работы через API-сервис Практикум.Домашка.|Познакомиться с REST API, механизмами авторизации, протоколом OAuth 2.0; Разобраться в основах API Telegram; Научиться работать с библиотекой python-telegram-bot.|![!PTB](https://img.shields.io/badge/python_telegram_bot-13.9.10-blue) ![!Requests](https://img.shields.io/badge/requests-2.26.0-blue) |
+
+</details>
+
+---
+
+<details>
+  <summary>
+    REST API для социальной сети Yatube
+  </summary>
+  
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |  [REST API Yatube](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/04_API_Yatube)|Написать REST API-сервис для проекта Yatube|Познакомиться с DRF: разобраться с основами сериализации данных; разобраться в работе view-функций/классов/сетов; научиться работать с SimpleRouter и DefaultRouter; познакомиться с токенами (Authtoken, JWT-токен), библиотекой Djoiser.|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)![Djoiser](https://img.shields.io/badge/Djoiser-2.1.0-blue)|
+
+</details>
+
+---
+
+<details>
+  <summary>
+    REST API для площадки отзывов Yamdb (групповой проект) 
+  </summary>
+  
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |[REST API Yamdb](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/05_API_YamDB)| Написать бэкенд и API для сервиса Yamdb, позволяющем собирать отзывы пользователей на произведения. |Научиться программировать в команде; разобраться с коллаборацией на GitHub; разобраться с PR, мёржем, cherry-pick, FF; научиться проводить кросс-ревью на GitHub|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)|
+
+</details>
+
+---
+
+<div align = center>
+  
 
 [![Telegram Badge](https://img.shields.io/badge/-dkushlevich-blue?style=social&logo=telegram&link=https://t.me/dkushlevich)](https://t.me/dkushlevich) [![Gmail Badge](https://img.shields.io/badge/-dkushlevich@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:dkushlevich@gmail.com)](mailto:dkushlevich@gmail.com)
 
+
+<div/>
