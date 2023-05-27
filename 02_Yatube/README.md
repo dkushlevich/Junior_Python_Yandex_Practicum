@@ -7,7 +7,7 @@
 
 ## Версии
 
----
+
 <details>
   <summary>
     Yatube v 0.1 (сообщества)
