@@ -10,7 +10,7 @@
 ---
 <details>
   <summary>
-    Модуль фитнес-трекера
+    <h4>Модуль фитнес-трекера</h4>
   </summary>
 
   <br>
@@ -25,7 +25,7 @@
 
 <details>
   <summary>
-    Социальная сеть для публикации личных дневников Yatube 
+    <h4>Социальная сеть для публикации личных дневников Yatube </h4>
   </summary>
   
   <br>
@@ -40,7 +40,7 @@
 
 <details>
   <summary>
-    Telegram-бот ассистент Homework Bot 
+    <h4>Telegram-бот ассистент Homework Bot</h4>
   </summary>
   
   <br>
@@ -55,7 +55,7 @@
 
 <details>
   <summary>
-    REST API для социальной сети Yatube
+    <h4>REST API для социальной сети Yatube</h4>
   </summary>
   
   <br>
@@ -70,7 +70,7 @@
 
 <details>
   <summary>
-    REST API для площадки отзывов Yamdb (групповой проект) 
+   <h4>REST API для площадки отзывов Yamdb (групповой проект) </h4>
   </summary>
   
   <br>
