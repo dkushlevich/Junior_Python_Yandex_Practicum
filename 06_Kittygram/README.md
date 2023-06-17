@@ -48,11 +48,11 @@ Kittygram - SPA, предназначенное для всех, кто увле
 
 1. Клонировать репозиторий.
    ```
-   $ git clone git@github.com:dkushlevich/infra_sprint1.git
+   $ git@github.com:dkushlevich/Practicum-by-Yandex-Python.git
    ```
 2. Cоздать и активировать виртуальное окружение:
     ```
-      $ cd backend/
+      $ cd 06_Kittygram/backend/
       $ python -m venv venv
     ```
     Для Windows:
@@ -69,7 +69,7 @@ Kittygram - SPA, предназначенное для всех, кто увле
     (venv) $ pip install -r requirements.txt
     ```
 4. Создать секретный ключ приложения:
-    * Создать файл .env в папке ```/infra_sprint1/backend```
+    * Создать файл .env в папке ```/06_Kittygram/backend```
     * Сгенерировать секретный ключ с помощью команды:
         ```
         (venv) $ python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
@@ -174,7 +174,7 @@ Kittygram - SPA, предназначенное для всех, кто увле
                 'http://localhost:3000',
             ] 
         ```
-2. Перейти в папку /infra_sprint1/frontend и установить зависимости:
+2. Перейти в папку /06_Kittygram/frontend и установить зависимости:
     
     ```
         npm -i
@@ -203,11 +203,11 @@ Kittygram - SPA, предназначенное для всех, кто увле
 
 2. Клонировать репозиторий:
    ```
-   $ git clone git@github.com:dkushlevich/infra_sprint1.git
+   $ git clone git@github.com:dkushlevich/Practicum-by-Yandex-Python.git
    ```
 3. Cоздать и активировать виртуальное окружение:
     ```
-      $ cd backend/
+      $ cd 06_Kittygram/backend/
       $ python -m venv venv
       $ source venv/bin/activate
     ```
@@ -217,7 +217,7 @@ Kittygram - SPA, предназначенное для всех, кто увле
     (venv) $ pip install -r requirements.txt
     ```
 5. Создать секретный ключ приложения:
-    * Создать файл .env в папке ```/infra_sprint1/backend```
+    * Создать файл .env в папке ```/06_Kittygram/backend```
     * Сгенерировать секретный ключ с помощью команды:
         ```
         (venv) $ python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
@@ -275,14 +275,14 @@ Kittygram - SPA, предназначенное для всех, кто увле
     ```
 12. Собрать статику фронтенд-приложения и скопировать её в системную директорию Nginx:
 
-    * Перейти в директорию taski/frontend и выполнить команду:
+    * Перейти в директорию /06_Kittygram//frontend и выполнить команду:
         ```
             npm run build
         ```
         
     * Скопировать созданную папку в /var/www
         ```
-        sudo cp -r /infra_sprint1/frontend/build/. /var/www/kittygram/ 
+        sudo cp -r /06_Kittygram//frontend/build/. /var/www/kittygram/ 
         ```
         
 13. Прописать конфиг веб-сервера:
