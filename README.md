@@ -77,7 +77,22 @@
  
   | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
   | :-----: | :-------------- | :---------- | :-------:|
-  |[REST API Yamdb](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/05_API_YamDB)| Написать бэкенд и API для сервиса Yamdb, позволяющем собирать отзывы пользователей на произведения. |Научиться программировать в команде; разобраться с коллаборацией на GitHub; разобраться с PR, мёржем, cherry-pick, FF; научиться проводить кросс-ревью на GitHub|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)|
+  |[REST API Yamdb](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/05_API_YamDB)| Написать бэкенд и API для сервиса Yamdb, позволяющем собирать отзывы пользователей на произведения. |Научиться программировать в команде; разобраться с коллаборацией на GitHub; разобраться с PR, merge, rebase, cherry-pick, FF; научиться проводить кросс-ревью на GitHub|![Django](https://img.shields.io/badge/Django-3.2.16-blue)![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue)|
+
+</details>
+
+---
+
+<details>
+  <summary>
+   <h4> Запуск проекта Kittygram на удалённом сервере </h4>
+  </summary>
+  
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |[Kittygram](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/06_Kittygram)| Запустить SPA Kittygram на сервере Yandex.Cloud с помощью nginx и gunicorn | Разобраться со спецификой работы на удалённом сервере; Научиться настраивать nginx и создавать gunicorn-юниты; Разобраться с реализацией SSL-соединения; |![Nginx](https://img.shields.io/badge/Nginx-1.18.0-blue) ![Gunicorn](https://img.shields.io/badge/Gunicorn-20.1.0-blue)|
 
 </details>
 
