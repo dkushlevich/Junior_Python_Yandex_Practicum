@@ -101,14 +101,14 @@
 
 <details>
   <summary>
-   <h4> CI/CD для проекта Kittygran </h4>
+   <h4> CI/CD Kittygran </h4>
   </summary>
   
   <br>
  
   | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
   | :-----: | :-------------- | :---------- | :-------:|
-  |[CI/CD для Kittygram](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/07_CICD_Kittygram)| Настроить workflow тестирования и деплоя проекта на удалённый сервер с помощью Github Actions; | Разобраться с работой docker и docker-compose; Получить представление о CI/CD |![Docker](https://img.shields.io/badge/Docker-blue) ![Gunicorn](https://img.shields.io/badge/Docker-compose-blue)|
+  |[CI/CD для Kittygram](https://github.com/dkushlevich/kittygram_final)| Настроить workflow тестирования и деплоя проекта на удалённый сервер с помощью Github Actions; | Разобраться с работой docker и docker-compose; Получить представление о CI/CD |![Docker](https://img.shields.io/badge/Docker-blue) ![Gunicorn](https://img.shields.io/badge/Docker-compose-blue)|
 
 </details>
 
@@ -118,16 +118,18 @@
 
 <details>
   <summary>
-   <h4> CI/CD для проекта Kittygran </h4>
+   <h4> REST API и CI/CD Foodgram </h4>
   </summary>
   
   <br>
  
   | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
   | :-----: | :-------------- | :---------- | :-------:|
-  |[Продуктовый помощник Foodgram](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/08_Foodgram)| Заключительный проект курса. Разработать с нуля REST API для продуктового помощника Foodgram| Отработать полученные за время курса навыки. ![Docker](https://img.shields.io/badge/Docker-blue) ![Gunicorn](https://img.shields.io/badge/Docker-compose-blue)|
+  |[Продуктовый помощник Foodgram](https://github.com/dkushlevich/foodgram-project-react)| Заключительный проект курса. Разработать с нуля REST API для продуктового помощника Foodgram| Отработать полученные за время курса навыки. |![Django_REST_framework](https://img.shields.io/badge/DRF-3.12.4-blue) ![Docker](https://img.shields.io/badge/Docker-blue) ![Docker-compose](https://img.shields.io/badge/Docker-compose-blue)|
 
 </details>
+
+---
 
 <div align = center>
   
