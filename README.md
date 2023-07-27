@@ -1,6 +1,6 @@
 <div align = center>
   
-  # Сборник учебных проектов по курсу <br> [Python-разработчик](https://practicum.yandex.ru/backend-developer/) <br> (ноябрь 2022 — настоящее время):
+  # Сборник учебных проектов по курсу <br> [Python-разработчик](https://practicum.yandex.ru/backend-developer/) <br> (ноябрь 2022 — июль 2023):
   
   Яндекс.Практикум
   
@@ -98,10 +98,41 @@
 
 ---
 
+
+<details>
+  <summary>
+   <h4> CI/CD для проекта Kittygran </h4>
+  </summary>
+  
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |[CI/CD для Kittygram](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/07_CICD_Kittygram)| Настроить workflow тестирования и деплоя проекта на удалённый сервер с помощью Github Actions; | Разобраться с работой docker и docker-compose; Получить представление о CI/CD |![Docker](https://img.shields.io/badge/Docker-blue) ![Gunicorn](https://img.shields.io/badge/Docker-compose-blue)|
+
+</details>
+
+
+---
+
+
+<details>
+  <summary>
+   <h4> CI/CD для проекта Kittygran </h4>
+  </summary>
+  
+  <br>
+ 
+  | Ссылка | Цель проекта | Задачи проекта  | Библиотеки|
+  | :-----: | :-------------- | :---------- | :-------:|
+  |[Продуктовый помощник Foodgram](https://github.com/dkushlevich/Practicum-by-Yandex-Python/tree/main/08_Foodgram)| Заключительный проект курса. Разработать с нуля REST API для продуктового помощника Foodgram| Отработать полученные за время курса навыки. ![Docker](https://img.shields.io/badge/Docker-blue) ![Gunicorn](https://img.shields.io/badge/Docker-compose-blue)|
+
+</details>
+
 <div align = center>
   
 
 [![Telegram Badge](https://img.shields.io/badge/-dkushlevich-blue?style=social&logo=telegram&link=https://t.me/dkushlevich)](https://t.me/dkushlevich) [![Gmail Badge](https://img.shields.io/badge/-dkushlevich@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:dkushlevich@gmail.com)](mailto:dkushlevich@gmail.com)
 
 
-<div/>
+</div>
